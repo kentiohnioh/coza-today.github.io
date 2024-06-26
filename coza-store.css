@@ -1,0 +1,620 @@
+ /* ========== FIRST HEAD ========== */
+
+ *{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+
+ }
+ .first-head{
+    width: 100%;
+    height: 5vh;
+    background-color: rgb(45, 43, 43);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+ }
+ .first-head .main-head{
+    width: 80%;
+    height: 100%;
+    /* background-color: red; */
+    margin: auto;
+    display: flex;
+}
+ .first-head .main-head .left-head{
+    width: 70%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    /* background-color: green; */
+ }
+ .main-head .left-head p{
+    color: rgb(177, 175, 175);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+.first-head .main-head .right-head{
+    width: 30%;
+    height: 100%;
+    /* background-color: brown; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.first-head .main-head .right-head .help{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+    border-left:1px solid gray;
+    border-right: 1px solid gray;
+    color: rgb(177, 175, 175);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.first-head .main-head .right-head .my-acc{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+    border-right: 1px solid gray;
+    color: rgb(177, 175, 175);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.first-head .main-head .right-head .eng{
+    width: 20%;
+    height: 100%;
+    /* background-color: aqua; */
+    border-right: 1px solid gray;
+    color: rgb(177, 175, 175);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.first-head .main-head .right-head .usd{
+    width: 20%;
+    height: 100%;
+    /* background-color: aqua; */
+    border-right: 1px solid gray;
+    color: rgb(177, 175, 175);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+ /* ========== SECOND HEAD ========== */
+ .second-head{
+    width: 100%;
+    height: 10vh;
+    /* background-color: greenyellow; */
+    margin: auto;
+ }
+ .second-head .main-head{
+    width: 80%;
+    height: 100%;
+    /* background-color: khaki; */
+    margin: auto;
+    display: flex;
+ }
+ /* ----- LEFT HEAD ----- */
+.second-head .main-head .left-head{
+    width: 14%;
+    height: 100%;
+    /* background-color: darkorange;     */
+ }
+.second-head .main-head .left-head img{
+    align-items: center;
+    padding: 40px 0px;
+    width: 80%;
+}
+ /* ----- MID HEAD ----- */
+.main-head .mid-head{
+    width: 74%;
+    height: 100%;
+    /* background-color: mediumslateblue; */
+    display: flex;
+}
+.main-head .mid-head .home{
+    width: 10%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* background-color: blue; */
+}
+.main-head .mid-head .home p{
+    padding: 15px 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-size: 20px; */
+    color: black;
+    transition: 0.8s;
+}
+.main-head .mid-head .home:hover p{
+    color: blue;
+    transition: 0.8s;
+}
+
+ /* ----- RIGHT HEAD ----- */
+.second-head .main-head .right-head{
+    width: 12%;
+    height: 100%;
+    /* background-color: blue; */
+    justify-content: center;
+    display: flex;
+    align-items: center;
+ }
+ .second-head .main-head .right-head .icon{
+    /* width: 33%;
+    height: 100%; */
+    /* background-color: greenyellow; */
+
+ }
+ .second-head .main-head .right-head .icon i{
+    font-size: 25px;
+    /* padding: 40px 16px; */
+    transition: 0.8s;
+ }
+ .second-head .main-head .right-head .icon:hover i{
+    color: blue;
+    transition: 0.8s;
+ }
+
+ /* =========== MAIN BACKGROUND ========== */
+.main-bg{
+    width: 100%;
+    height: 83.5vh;
+    background-color: yellow;
+    position: relative;
+ }
+ .main-bg img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+ }
+ .main-bg .woman-coll{
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    top: 250px;
+    font-size:40px;
+    margin-left: 10%;
+    text-shadow: 2px 3px 3px rgb(128, 128, 128);
+ }
+ .main-bg .new-season{
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    text-transform: uppercase;
+    top: 300px;
+    font-size: 50px;
+    margin-left: 10%;
+    text-shadow: 5px 5px 5px gray;
+ }
+ /* ========== BLOCK ========== */
+ .block{
+    width: 80%;
+    height: 30vh;
+    /* background-color: khaki; */
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+ }
+ .block .blocks{
+    width: 30%;
+    height: 100%;
+    /* background-color: aqua; */
+    position: relative;
+    transition: 0.7s;
+ }
+ .block .blocks:hover{
+    transition: 0.7s;
+    background-color: rgba(0, 0, 255, 0.4);
+ }
+ .block .blocks img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+ }
+ .block .blocks h2{
+    position: absolute;
+    top: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 35px;
+    margin-left: 30px;
+ }
+ .block .blocks p{
+    position: absolute;
+    top: 130px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+ }
+ /* ----- s-now ----- */
+ .block .blocks .s-now{
+    position: relative;
+    width: 140px;
+    height: 30px;
+    /* background-color: purple; */
+    bottom: -80%;
+    left: 10%;
+    overflow: hidden;
+    /* transition: 2s; */
+
+ }
+.block .blocks .s-now a{
+    position: absolute;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    bottom: -70%;
+    overflow: hidden;
+}
+.block .blocks .s-now a::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    bottom: 40%;
+}
+.block .blocks:hover .s-now a{
+    top: 0%;
+}
+/* ========== PRO OVER ========== */
+.pro-over{
+    width: 80%;
+    height: 25vh;
+    /* background-color: greenyellow; */
+    margin: 0 auto;
+}
+/* ----- pro over up ----- */
+.pro-over .pro-over-up{
+    width: 100%;
+    height: 50%;
+    /* background-color: red;    */
+}
+.pro-over .pro-over-up h1{
+    padding: 75px 0px;
+}
+/* ----- pro over down ----- */
+.pro-over .pro-over-down{
+    width: 100%;
+    height: 50%;
+    /* background-color: blue;   */
+    display: flex;
+}
+.pro-over .pro-over-down .all-pro{
+    width: 50%;
+    height: 100%;
+    /* background-color: deepskyblue; */
+}
+.pro-over .pro-over-down .all-pro p{
+    color: rgb(167, 164, 164);
+    padding: 15px 0px;
+    text-underline-position: none;
+}
+.pro-over .pro-over-down .all-pro p u{
+    text-decoration: none;
+}
+.pro-over .pro-over-down .all-pro p u:hover{
+    text-decoration: underline;
+}
+.pro-over .filter{
+    width: 50%;
+    height: 100%;
+    /* background-color: rebeccapurple; */
+    justify-content: right;
+    display: flex;
+}
+.pro-over .filter button[type="button"]{
+    width: 90px;
+    height: 40px;
+    border-width: 1px;
+    border-color:rgb(187, 187, 187);
+    margin-top: 5px;
+    outline: none;
+    border-radius: 5px;
+    color: rgb(152, 152, 152);
+    background-color: white;
+    transition: 0.5s;
+}
+.pro-over .filter button:hover {
+    background-color: rgb(58, 111, 218);
+    transition: 0.5s;
+}
+.pro-over .filter #search{
+    width: 120px;
+    height: 40px;
+    border-width: 1px;
+    border-color:rgb(187, 187, 187);
+    outline: none;
+    border-radius: 5px;
+    color: rgb(152, 152, 152);
+    background-color: white;
+}
+.pro-over .filter #search:hover{
+    background-color: rgb(58, 111, 218);
+    transition: 0.5s;
+}
+/* ========== ADS ========== */
+ .ads {
+    width: 80%;
+    height: 400px;
+    /* background-color: orange; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.ads .ads-in{
+    width: 23%;
+    height: 100%;
+    /* background-color: lime; */
+}
+
+/* ----- img ----- */
+.ads .ads-in .img{
+    width: 100%;
+    height: 78%;
+    background-color:mediumorchid;
+    position: relative;
+    overflow: hidden;
+}
+.ads .ads-in .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* z-index: -1; */
+    position: absolute;
+    transition: 0.7s;
+}
+.ads .ads-in .img:hover img{
+    scale: 1.06;
+    transition: 0.7s;
+}
+.ads .ads-in .img button{
+    width: 130px;
+    height: 40px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    /* margin: auto; */
+    position: absolute;
+    bottom: -15%;
+    transition: 0.5s;
+    margin-left: 25%;
+    overflow: hidden;
+}
+.ads .ads-in .img:hover button{
+    bottom: 7%;
+    transition: 0.5s;
+    overflow: hidden;
+}
+/* .ads .ads-in .img button p{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+} */
+/* ---- txt ----- */
+.ads .ads-in .txt{
+    width: 100%;
+    height: 22%;
+    /* background-color: blueviolet; */
+    padding: 15px 0px;
+    /* display: flex; */
+}
+.ads .ads-in .name{
+    width: 100%;
+    height: 50%;
+    /* background-color: paleturquoise; */
+    display: flex;
+}
+.ads .ads-in .name .left{
+    width: 80%;
+    height: 100%;
+    /* background-color: darkseagreen; */
+}
+.ads .ads-in .name .left p{
+    content: '';
+    color: rgb(143, 142, 142);
+    transition: 0.5s;
+}
+.ads .ads-in .name .left p:hover{
+    color: rgb(58, 111, 218);
+    transition: 0.5s;
+}
+.ads .ads-in .name .right{
+    width: 20%;
+    height: 100%;
+    /* background-color: rgb(255, 30, 30); */
+}
+.ads .ads-in .name .right p {
+    color: rgb(105, 105, 105);
+    font-size: 10px;
+    justify-content: right;
+    display: flex;
+    transition: 0.5s;
+}
+.ads .ads-in .name .right p:hover{
+    color: rgb(58, 111, 218);
+    transition: 0.5s;
+}
+.ads .ads-in .price {
+    width: 100%;
+    height: 50%;
+    /* background-color: rgb(206, 153, 255); */
+}
+.ads .ads-in .txt p {
+    color: rgb(106, 106, 106);
+    padding: 3px 0px;
+}
+/* ========== LOAD MORE ========== */
+.load-more{
+    width: 200px;
+    height: 60px;
+    /* background-color: blue; */
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.load-more button {
+    width: 90%;
+    height: 80%;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-color: lightgray;
+    transition: 0.4s;
+    margin-top: 130px;
+}
+.load-more button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+/* ========== FOOTER ========== */
+.footer{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(36, 36, 36);
+    margin-top: 25vh;
+}
+.footer .footer-in{
+    width: 80%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    margin: 0 auto;
+}
+/* ----- Footer Up ----- */
+.footer .footer-in .up{
+    width: 100%;
+    height: 70%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footer-in .up .cate{
+    width: 24%;
+    height: 100%;
+    /* background-color: goldenrod; */
+}
+.footer .footer-in .up .cate h2{
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-weight: 800;
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+}
+.footer .footer-in .up .cate p{
+    margin-top: 30px;
+    transition: 0.5s;
+    color: gray;
+}
+.footer .footer-in .up .cate p:hover{
+    color: rgb(118, 118, 255);
+    transition: 0.5s;
+}
+/* ----- cate 1 ------ */
+.footer .footer-in .up .cate1{
+    width: 24%;
+    height: 100%;
+    color: gray;
+    /* background-color: goldenrod; */
+}
+.footer .footer-in .up .cate1 h2{
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-weight: 800;
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+}
+.footer .footer-in .up .cate1 p{
+    margin-top: 20px;
+}
+.footer .footer-in .up .cate1 .icon i{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.footer .footer-in .up .news{
+    width: 24%;
+    height: 100%;
+    /* background-color: goldenrod; */
+}
+.footer .footer-in .up .news h2{
+    text-transform: uppercase;
+    margin-top: 30px;
+    font-weight: 800;
+    color: white;
+    font-family: "Archivo Black", sans-serif;
+}
+.footer .footer-in .up .news input{
+    margin-top: 20px;
+    width: 100%;
+    height: 30px;
+    background-color: rgb(36, 36, 36);
+    outline: none;
+    border-width: 0px 0px 1.5px;
+    border-color: rgb(74, 74, 74);
+    color: rgb(152, 152, 152);
+}
+.footer .footer-in .up .news button{
+    width: 200px;
+    height: 48px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: rgb(118, 118, 255);
+    margin-top: 20px;
+    color: white;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+.footer .footer-in .up .news button:hover{
+    background-color: white;
+    color: rgb(118, 118, 255);
+    transition: 0.5s;
+}
+/* ----- Footer Down ------ */
+.footer .footer-in .down{
+    width: 100%;
+    height: 30%;
+    /* background-color: red; */
+    overflow: hidden;
+}
+.footer .footer-in .down .img{
+    width: 100%;
+    height: 20px;
+    /* background-color: darkorange; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+}
+.footer .footer-in .down .txt{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+.footer .footer-in .down .txt p {
+    color: gray;
+}
+.footer .footer-in .down .txt p u{
+    text-decoration: none;
+    color: rgb(0, 94, 255);
+}
+.footer .footer-in .down .txt p u:hover{
+    color: rgb(26, 26, 255)
+}
